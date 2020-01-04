@@ -1,90 +1,260 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lintonUtils:jar2" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e83cd45-5075-4460-a2d1-0b121d47eb0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sql/utils.sql" afterDir="false" />
+    <list default="true" id="7e83cd45-5075-4460-a2d1-0b121d47eb0b" name="Default Changelist" comment="sql工具包">
+      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Dijstra/Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Dijstra/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Dijstra/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TCPcomunication/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ceshi/Dijkstras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ceshi/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/adapter_1/AdapterPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/adapter_1/AdvancedMediaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/adapter_1/AudioPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/adapter_1/MediaAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/adapter_1/MediaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/adapter_1/Mp4Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/adapter_1/VlcPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/chain_of_responsibility_2/AbstractLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/chain_of_responsibility_2/ChainPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/chain_of_responsibility_2/ConsoleLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/chain_of_responsibility_2/ErrorLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/chain_of_responsibility_2/FileLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/command_3/Broker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/command_3/BuyStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/command_3/CommandPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/command_3/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/command_3/SellStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/command_3/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/decorator_4/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/decorator_4/DecoratorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/decorator_4/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/decorator_4/RedShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/decorator_4/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/decorator_4/ShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/flyweight_5/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/flyweight_5/FlyWeightPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/flyweight_5/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/flyweight_5/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/observer_10/BinaryObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/observer_10/HexObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/observer_10/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/observer_10/ObserverPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/observer_10/OctalObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/observer_10/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/proxy_6/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/proxy_6/ProxyImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/proxy_6/ProxyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/proxy_6/RealImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/strategy_7/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/strategy_7/OperationAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/strategy_7/OperationMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/strategy_7/OperationSubstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/strategy_7/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/strategy_7/StrategyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/template_8/Cricket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/template_8/Football.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/template_8/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/template_8/TemplatePatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/visitor_9/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/visitor_9/ComputerPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/visitor_9/ComputerPartDisplayVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/visitor_9/ComputerPartVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/visitor_9/Keyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/visitor_9/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/visitor_9/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/pattern/visitor_9/VisitorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/renren_security_utils/前端.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/renren_security_utils/后端.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/test/HexConvert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/test/StringToHex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/utils/nio/ClientTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/utils/nio/FileChannelTxt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/utils/nio/ServerTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lintonUtils/utils/util/HexConvert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/adapter_1/AdapterPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/adapter_1/AdapterPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/chain_of_responsibility_2/ChainPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/chain_of_responsibility_2/ChainPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/command_3/CommandPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/command_3/CommandPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/decorator_4/DecoratorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/decorator_4/DecoratorPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/flyweight_5/FlyWeightPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/flyweight_5/FlyWeightPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/observer_10/ObserverPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/observer_10/ObserverPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/proxy_6/ProxyPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/proxy_6/ProxyPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/strategy_7/StrategyPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/strategy_7/StrategyPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/template_8/TemplatePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/template_8/TemplatePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/visitor_9/VisitorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/visitor_9/VisitorPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renren_security_utils/前端.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renren_security_utils/前端.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renren_security_utils/后端.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/renren_security_utils/后端.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sql/utils.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sql/utils.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/HexConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ceshi/HexConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/StringToHex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ceshi/StringToHex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ceshi/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/nio/ClientTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/nio/ClientTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/nio/FileChannelTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/nio/FileChannelTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/nio/ServerTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/nio/ServerTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/util/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/util/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/util/HexConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/util/HexConvert.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/src/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1257820147">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.52" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="MF" value="1" />
+          <entry key="class" value="1" />
+          <entry key="java" value="38" />
           <entry key="md" value="7" />
           <entry key="sql" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="38" />
+          <entry key="Manifest" value="1" />
           <entry key="Markdown" value="7" />
           <entry key="SQL" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="640" />
+          <entry key="java" value="930" />
           <entry key="md" value="266" />
           <entry key="sql" value="17" />
-          <entry key="txt" value="18" />
+          <entry key="txt" value="26" />
+          <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="640" />
+          <entry key="JAVA" value="930" />
           <entry key="Markdown" value="266" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="PLAIN_TEXT" value="34" />
           <entry key="SQL" value="17" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pattern/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="360">
-                <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ceshi/Hello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/util/ExcelUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/target/classes/ceshi/Hello.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="100">
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#442#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="60">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/flyweight_5/FlyWeightPatternDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ceshi/Dijkstras.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2000">
+              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+              <folding>
+                <element signature="e#2805#2806#0" expanded="true" />
+                <element signature="e#2875#2876#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ceshi/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Dijstra/Vertex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Dijstra/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,52 +263,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/StringToHex.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Dijstra/Dijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sql/utils.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#231#239#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="100">
-                <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="100">
-                <caret line="5" column="4" selection-end-line="5" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/util/HexConvert.java">
+        <entry file="file://$PROJECT_DIR$/src/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -169,13 +310,26 @@
         <option value="$PROJECT_DIR$/src/utils/io/Server.java" />
         <option value="$PROJECT_DIR$/src/utils/io/ClientTemplate.java" />
         <option value="$PROJECT_DIR$/src/utils/io/ServerTemplate.java" />
-        <option value="$PROJECT_DIR$/src/utils/nio/ServerTemplate.java" />
         <option value="$PROJECT_DIR$/src/pattern/template_8/TemplatePatternDemo.java" />
         <option value="$PROJECT_DIR$/src/pattern/README.md" />
         <option value="$PROJECT_DIR$/src/utils/util/ExcelUtils.java" />
         <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/sql/utils.sql" />
+        <option value="$PROJECT_DIR$/src/test/TCP通信/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/test/TCPcomunication/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/utils/nio/ServerTemplate.java" />
+        <option value="$PROJECT_DIR$/src/test/Hello.java" />
+        <option value="$PROJECT_DIR$/src/utils/Dijstra/Dijkstras.java" />
+        <option value="$PROJECT_DIR$/src/pom.xml" />
+        <option value="$PROJECT_DIR$/src/utils/Dijstra/Graph.java" />
+        <option value="$PROJECT_DIR$/src/utils/Dijstra/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/utils/Dijstra/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Dijstra/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Dijstra/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Dijstra/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ceshi/Dijkstras.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ceshi/Hello.java" />
       </list>
     </option>
   </component>
@@ -192,11 +346,20 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1608" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="886" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,39 +367,135 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lintonUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lintonUtils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Dijstra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ceshi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lintonUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576849959230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577775484983" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../renren-fast/renren-fast" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\11Code\lintonUtils\src\test\java" />
+      <recent name="G:\11Code\lintonUtils\src" />
+      <recent name="G:\11Code\lintonUtils\src\main\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utils.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\11Code\lintonUtils\src\test\java\ceshi" />
+      <recent name="G:\11Code\lintonUtils\src\utils\Dijstra" />
       <recent name="G:\11Code\lintonUtils\src" />
     </key>
   </component>
@@ -252,13 +511,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="HexConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.HexConvert" />
+  <component name="RunManager" selected="Application.Hello">
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.Dijstra.Dijkstra" />
       <module name="lintonUtils" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="utils.Dijstra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,12 +525,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToHex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.StringToHex" />
+    <configuration name="Dijkstras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ceshi.Dijkstras" />
       <module name="lintonUtils" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="ceshi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,23 +538,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test" />
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ceshi.Hello" />
       <module name="lintonUtils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ceshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.nio.ServerTemplate" />
+      <module name="lintonUtils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TCPcomunication.ServerThread" />
+      <module name="lintonUtils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.TCPcomunication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.StringToHex" />
-      <item itemvalue="Application.HexConvert" />
+      <item itemvalue="Application.ServerThread" />
+      <item itemvalue="Application.ServerTemplate" />
+      <item itemvalue="Application.Hello" />
+      <item itemvalue="Application.Dijkstra" />
+      <item itemvalue="Application.Dijkstras" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.HexConvert" />
-        <item itemvalue="Application.StringToHex" />
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.Dijkstras" />
+        <item itemvalue="Application.Dijkstra" />
+        <item itemvalue="Application.ServerTemplate" />
+        <item itemvalue="Application.ServerThread" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +608,11 @@
       <workItem from="1576651476898" duration="9343000" />
       <workItem from="1576732122924" duration="6946000" />
       <workItem from="1576801957093" duration="1883000" />
+      <workItem from="1577524369412" duration="5073000" />
+      <workItem from="1577665555475" duration="31000" />
+      <workItem from="1577709127128" duration="8000" />
+      <workItem from="1577710129261" duration="4818000" />
+      <workItem from="1577753100362" duration="5687000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1576746397114</created>
@@ -328,16 +628,23 @@
       <option name="project" value="LOCAL" />
       <updated>1576746549117</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sql工具包">
+      <created>1577524584218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577524584218</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19066000" />
+    <option name="totallyTimeSpent" value="34683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="-8" width="1616" height="886" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27827764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -346,17 +653,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3468208" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39835164" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32737276" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.4181568" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3287483" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" weight="0.3287483" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.41763005" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3287483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,7 +672,8 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.16838047" />
+      <window_info anchor="right" id="Word Book" order="9" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,24 +711,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+    <MESSAGE value="sql工具包" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql工具包" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/nio/FileChannelTxt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/HexConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renren_security_utils/后端.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/renren_security_utils/后端.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="160">
@@ -430,7 +725,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renren_security_utils/前端.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/renren_security_utils/前端.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="240">
@@ -440,55 +735,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/nio/ClientTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/nio/ServerTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/proxy_6/ProxyPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/proxy_6/ProxyPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/flyweight_5/FlyWeightPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/observer_10/ObserverPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/observer_10/ObserverPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/chain_of_responsibility_2/ChainPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/chain_of_responsibility_2/ChainPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/adapter_1/AdapterPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/adapter_1/AdapterPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/strategy_7/StrategyPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/strategy_7/StrategyPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/template_8/TemplatePatternDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/template_8/TemplatePatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/visitor_9/VisitorPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/visitor_9/VisitorPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="940">
           <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/decorator_4/DecoratorPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/decorator_4/DecoratorPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/command_3/CommandPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/command_3/CommandPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="360">
@@ -498,20 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/util/ExcelUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/util/ExcelUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,33 +803,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/util/HexConvert.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/util/HexConvert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/StringToHex.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sql/utils.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        <state relative-caret-position="160">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sql/utils.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/nio/FileChannelTxt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/nio/ClientTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="201" column="16" selection-start-line="201" selection-start-column="7" selection-end-line="201" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Dijstra/Dijkstras.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/nio/ServerTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TCPcomunication/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ceshi/HexConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ceshi/StringToHex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/flyweight_5/FlyWeightPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ceshi/Dijkstras.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+          <folding>
+            <element signature="e#2805#2806#0" expanded="true" />
+            <element signature="e#2875#2876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ceshi/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Dijstra/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Dijstra/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Dijstra/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/target/classes/ceshi/Hello.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ceshi/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>lintonUtils:jar2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lintonUtils</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.projectlombok:lombok:1.16.16</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
